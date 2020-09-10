@@ -1,0 +1,17 @@
+{
+	"public_data": {
+		"client_id": "[discord id]",
+		"redirect_uri": "[callback]",
+		"response_type": "code",
+		"scope": "identify"
+	},
+	"private_data": {
+		"client_secret": "[discord secret]",
+		"permitted_roles": [
+			"roleid"
+		],
+		"blacklisted_roles": [
+			"roleid"
+		]
+	}
+}

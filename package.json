@@ -1,0 +1,20 @@
+{
+  "name": "oauthfivem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@citizenfx/http-wrapper": "^0.2.0",
+    "discord-oauth2": "^1.3.0",
+    "koa": "^2.11.0",
+    "koa-router": "^7.4.0",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0"
+  }
+}
